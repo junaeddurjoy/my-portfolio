@@ -167,3 +167,26 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer sylte */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+.social-links{
+    margin-right: 25px;
+}
