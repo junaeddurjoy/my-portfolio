@@ -8,12 +8,19 @@ body{
 }
 .btn-primary{
     background-color: #FD6E0A;
-    color: aliceblue;
+    color: white;
     border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
 }
 /* nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
     color: #181818;
@@ -24,6 +31,7 @@ nav{
 nav > ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 nav li{
     margin-right: 50px;
