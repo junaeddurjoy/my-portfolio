@@ -198,11 +198,24 @@ footer{
 }
 .social-links{
     margin-right: 25px;
-    align-items: center;
+    display: inline;
 }
 .social-linkss{
+    padding-right: 10px;
+    text-decoration: none;
     padding-right: 30px;
+    padding-left: 25px;
 }
 #subm{
     color: #FFF;
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans',sans-serif;
+}
+#subm:hover{
+    background-color: #eb741f;
+    color: #474747;
+}
+b{
+    text-decoration: none;
+    color: #FD6E0A;
 }
