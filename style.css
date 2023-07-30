@@ -129,6 +129,7 @@ main section{
     gap: 24px;
 }
 .skill{
+    margin-left: auto;
     padding: 30px;
     
     border-radius: 5px;
@@ -184,7 +185,7 @@ footer{
     gap: 100px;
 }
 .footer-column{
-    width: 50%;
+    margin-left: auto;
 }
 
 .contact input, textarea{
@@ -199,6 +200,7 @@ footer{
 .social-links{
     margin-right: 25px;
     display: inline;
+    margin-left: 320px;
 }
 .social-linkss{
     padding-right: 10px;
@@ -218,4 +220,11 @@ footer{
 b{
     text-decoration: none;
     color: #FD6E0A;
+}
+.download{
+    text-decoration: none;
+    color: white;
+}
+.download:hover{
+    color: black;
 }
