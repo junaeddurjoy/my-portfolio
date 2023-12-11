@@ -1,166 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Junaed Hossain | Portfolio</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-    </style>
+    <title>Junaed Hossain</title>
+    <link rel="shortcut icon" href="./images/logo_jh.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f786a7ca1.js" crossorigin="anonymous"></script>
+    <style>
+        .font {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="header">
-        <nav>
-            <h3 class="nav-title">Junaed<span class="text-primary"> Hossain</span></h3>
-        </nav>
-        <div class="banner">
-            <div class="banner-content">
-                <h3 class="banner-greet">Hi, I am</h3>
-                <h1 class="banner-title">Junaed Hossain</h1>
-                <p class="banner-description">A Computer Science student who is trying to learn and develop new skills according to time and the demand.</p>
-                <button class="btn-primary"><a class="download" href="Junaed Hossain.pdf">Download CV</a></button>
-            </div>
-            <img class="profile-picture" src="images/junaed.png" alt="My Image">
+    <div class='bg-base-300'>
+        <div class="text-center lg:mx-24 py-10 ">
+            <h2 class="text-4xl mx-24 lg:mx-0 text-gray-600 mb-10">Hi! This is <span class="text-5xl font-bold">JUNAED
+                    HOSSAIN</span></h2>
+            <h2 class="lg:pl-96 -ml-5 text-3xl lg:text-5xl text-gray-700 flex"> I am a&nbsp
+                <p href="" class="typewrite text-5xl font-bold text-purple-700" data-period="2000"
+                    data-type='[  "Frontend Developer", "Web Developer" ]'>
+                    <span class="wrap"></span>
+                </p>
+                </span>
+            </h2>
+            <p class='font-bold text-xl my-10 font-josephin'>I am a software developer and here is my portfolio
+                website. Here you will learn about my journey as a software developer.</p>
+            <button
+                class='border-4 rounded-lg hover:bg-orange-600 border-orange-600 hover:border-white hover:text-white p-3 px-10 text-xl font-bold'>Hire
+                Me</button>
         </div>
-    </header>
-    <main>
-        <section class="about">
-            <h3 class="section-title">About</h3>
-            <p class="section-description">
-                I am a designer & developer with a passion for web design. I enjoy developing simple, clean and
-                slick websites that provide real value to the end user. Also, want to apply my educational learnings in your institution to make proper use of my learnings.
-            </p>
-            <div class="about-info-container">
-                <div class="about-info">
-                    <p class="info-title">Name:</p>
-                    <p class="info-description">Junaed Hossain</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-title">Email:</p>
-                    <p class="info-description">junaed.durjoy@gmail.com</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-title">Date Of Birth:</p>
-                    <p class="info-description">29 June 2001</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-title">From:</p>
-                    <p class="info-description">Dhaka, Bangladesh</p>
-                </div>
-            </div>
-        </section>
-        <!-- what i do -->
-        <section>
-            <h3 class="section-title">What I Do</h3>
-            <p class="section-description" id="what-i-do">
-                I am a Computer Science student who is searching for opportunity to apply my skills in corporate institutions. Below is a quick
-                overview of my main technical skill sets and technologies i use. Want to find out more about my experience?
-                Check out my online resume and project portfolio
-            </p>
-            <div class="skill-container">
-                <div class="skill">
-                    <img src="images/icons/js.png" alt="">
-                    <h3 class="skill-title">JavaScript</h3>
-                        90%<meter id="disk" value="0.5"></meter>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/react.png" alt="">
-                    <h3 class="skill-title">React</h3>
-                        70%<meter id="disk" value="0.9"></meter>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/nodejs.png" alt="">
-                    <h3 class="skill-title">NodeJS</h3>
-                        60%<meter id="disk" value="0.2"></meter>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/mongo.png" alt="">
-                    <h3 class="skill-title">MongoDB</h3>
-
-                        50%<meter id="disk" value="0.4"></meter>
-                </div>
-            </div>
-        </section>
-        <!-- Resume -->
-        <section class="resume-summary">
-            <h3 class="section-title">A summary of My Resume</h3>
-            <div class="resume-container">
-                <div class="resume-column">
-                    <h3 class="resume-column-title">My Education</h3>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Bsc in CSE</h2>
-                        <h3 class="resume-item-inst">BRAC University</h3>
-                        <p class="resume-item-desc">
-                            16 January 2020 - Present
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">HSC</h2>
-                        <h3 class="resume-item-inst">Govt. Science College</h3>
-                        <p class="resume-item-desc">
-                            26 June 2017 - 26 August 2019
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">SSC</h2>
-                        <h3 class="resume-item-inst">Ideal School & College</h3>
-                        <p class="resume-item-desc">
-                            1 January 2011 - 1 June 2017
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="resume-column" id="resume-column">
-                    <h3 class="resume-column-title">My Experience</h3>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Life Insurance Management System</h2>
-                        <h3 class="resume-item-inst">System Design & Database Management</h3>
-                        <p class="resume-item-desc">
-                            Life Insurance Agency System Management
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Fake New Detection</h2>
-                        <h3 class="resume-item-inst">Machine Learning</h3>
-                        <p class="resume-item-desc">
-                            Fake News Detection System From Newspaper/Article
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Sexism Detection</h2>
-                        <h3 class="resume-item-inst">Natural Language Processing</h3>
-                        <p class="resume-item-desc">
-                            Sexism Detection Using NLP Algorithms
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="download-cv">
-                <button class="btn-primary"><a class="download" href="Junaed Hossain.pdf">Download CV</a></button>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-column">
-            <h3 class="section-title">
-                Lets Connect
-            </h3>
-            <p class="section-description">
-                Please contact with the social links that provided below. You can find me here between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.
-            </p>
-            <div class="social-links">
-                <a class="social-linkss" href="https://www.facebook.com/junaed.durjoy" target="_blank"><img src="images/icons/facebook.png" alt=""><b>Facebook</b></a>
-                <a class="social-linkss" href="https://www.instagram.com/junaed.durjoy/" target="_blank"><img src="images/icons/insta.png" alt=""><b>Instagram</b></a>
-                <a class="social-linkss" href="https://twitter.com/JunaedDurjoy" target="_blank"><img src="images/icons/twitter.png" alt=""><b>Twitter</b></a>
+    </div>
+    <div class="hero min-h-screen bg-[url('images/background.png')]">
+        <div class="hero-overlay bg-opacity-0"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="mx-20 grid grid-cols-3 gap-5">
+                <img class='rounded-lg h-[35rem] w-[25rem]' src="images/myself-1.jpg" alt="" />
+                <img class='rounded-lg h-[35rem] w-[25rem]' src="images/myself-3.jpg" alt="" />
+                <img class='rounded-lg h-[35rem] w-[25rem]' src="images/myself-4.jpg" alt="" />
             </div>
         </div>
+    </div>
+    <div>
+        <div class='my-20'>
+            <p class='text-center text-9xl font-extrabold text-base-300'>Junaed Hossain</p>
+            <div class='bg-base-300 -mt-3'>
+                <p class='pt-10 text-5xl font-bold text-center pb-5'>Projects</p>
+            </div>
+        </div>
+    </div>
 
-    </footer>
+    <script src="style.js"></script>
 </body>
+
 </html>
